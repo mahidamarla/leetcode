@@ -5,7 +5,6 @@ def canEat(piles,hours_have,k):
     return hours_needed<=hours_have
 class Solution:
     def minEatingSpeed(self, piles: List[int], h: int) -> int:
-        k=1
         low=1
         high=max(piles)
         while low<high:
