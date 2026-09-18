@@ -11,7 +11,7 @@ class Solution:
                 if not lst:
                     return False
                 else:
-                    if i == ")" and lst[-1] == "(" or i == "}" and lst[-1] == "{" or i == "]" and lst[-1] == "[" :
+                    if d[i]==lst[-1]:
                         lst.pop()
                     else:
                         return False
